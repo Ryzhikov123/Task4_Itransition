@@ -22,7 +22,6 @@ const LinksList = ({users}) => {
     }
 
     const dateFormat = (dateNow) => {
-        console.log(dateNow, typeof dateNow)
         if (dateNow) {
             let usaTime = new Date(dateNow).toLocaleString("en-US", {timeZone: "Europe/Minsk"});
             usaTime = new Date(usaTime);
