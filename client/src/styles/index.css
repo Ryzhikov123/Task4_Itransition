@@ -1,0 +1,120 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+input.black-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.black-input + label {
+  color: #000000 !important;
+  padding-left: 10px;
+}
+
+input.black-input:focus + label {
+  color: #000000 !important;
+}
+
+.medium.material-icons {
+  cursor: pointer;
+}
+
+html {
+  height: 100vh;
+  background: rgb(255, 99, 136);
+  background: linear-gradient(
+    119deg,
+    rgba(255, 99, 136, 1) 0%,
+    rgba(241, 228, 150, 1) 100%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(255, 252, 249, 1) 100%
+  );
+}
+.card {
+  width: 100%;
+  border-radius: 15px;
+}
+.card-action.center {
+  border-radius: 15px !important;
+}
+button.btn.blue.lighten-1.black-text {
+  margin-top: 15px;
+}
+.card-input {
+  padding-bottom: 90px;
+}
+.card-action.center {
+  padding-top: 0;
+}
+.btn.blue.lighten-1.white-text {
+  width: 50%;
+  border-radius: 10px;
+  margin: 15px;
+}
+.link-auth {
+  color: #42a5f5 !important;
+}
+.input-field {
+  border: 1px solid #000000 !important;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.card-content.white-text {
+  padding-bottom: 0;
+}
+
+button.waves-effect.red.accent-1.btn {
+  width: 20%;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.checkbox-blue-grey[type='checkbox'].filled-in:checked
+  + span:not(.lever):after {
+  border: 2px solid #1565c0;
+  background-color: #1565c0;
+}
+
+div.navbar-right {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.toolbar-buttons {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+td.main-checkbox {
+  padding-bottom: 1px;
+}
+
+td.checkbox-table-row {
+  padding-bottom: 3px;
+}
+
+div.loader-loading {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.card-content.white-text.auth {
+  padding-bottom: 0;
+}
+
+.brand-logo.center {
+  user-select: none;
+}
+
+.grid-item {
+  user-select: none;
+}
