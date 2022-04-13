@@ -2,10 +2,10 @@
   "name": "task_4_server",
   "version": "1.0.0",
   "description": "Mern stack",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
-    "server": "nodemon app.js",
+    "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "client:install": "npm install --prefix client",
     "client:build": "npm run build --prefix client",
